@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 .body {
@@ -20,7 +18,7 @@
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 0 25px;
 }
 
 .header-box {
@@ -45,6 +43,12 @@
 .header-controls {
   display: flex;
   gap: 12px;
+}
+
+.header-burger {
+  height: 15px;
+  width: 30px;
+  display: none;
 }
 
 .btn {
@@ -94,5 +98,13 @@
 @media (max-width: 786px) {
   .container {
     max-width: 100%;
+  }
+
+  .header-burger {
+    display: block;
+  }
+
+  .header-controls {
+    display: none;
   }
 }
