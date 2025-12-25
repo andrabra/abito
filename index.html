@@ -27,14 +27,37 @@
             <button class="btn btn-primary">Подать объявление</button>
           </div>
           <div class="header-burger">
-            <img src="./img/burger-menu.svg" alt="Бургер меню">
+            <img src="./img/burger-menu.svg" alt="Бургер меню" />
           </div>
         </div>
       </div>
     </header>
-    <main>
-      <div>Search</div>
-      <div>Content</div>
+    <main class="main">
+      <section class="search">
+        <div class="container">
+          <div class="search-box">
+            <input
+              id="search-input"
+              placeholder="Поиск по объявлениям"
+              class="search-input"
+              type="text"
+            />
+            <button class="btn btn-primary">
+              <img
+                class="search-icon"
+                src="./img/search-icon.svg"
+                alt="Поиск"
+              />
+              <span class="search-btn-text">Найти</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+        <div class="container">
+          <div>Content</div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
