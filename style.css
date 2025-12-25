@@ -51,15 +51,20 @@
   color: rgba(10, 20, 58, 1);
   background-color: transparent;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: rgba(37, 110, 235, 0.1);
+  background-color: rgba(10, 20, 58, 0.1);
 }
 
 .btn.btn-primary {
   color: #fff;
   background-color: rgba(37, 110, 235, 1);
+}
+
+.btn.btn-primary:hover {
+  background-color: rgba(37, 110, 235, 0.8);
 }
 
 @media (max-width: 1200px) {
